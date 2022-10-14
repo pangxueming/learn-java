@@ -1,0 +1,16 @@
+server:
+  port: 8086
+servlet:
+  context-path: /testApi
+spring:
+  datasource:
+      username: root
+      password: 123456
+      #        password: zhyl1234
+      #        password: Bmq091123 quanbanben20210602
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      #        match2test
+      url: jdbc:mysql://127.0.0.1:3306/test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
