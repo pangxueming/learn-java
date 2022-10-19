@@ -20,12 +20,12 @@ import java.util.List;
  */
 @RestController
 public class TeacherController {
-    @Autowired
-    private TeacherService teacherService;
+  @Autowired
+  private TeacherService teacherService;
 
-    @RequestMapping("/test/teacher")
-    public List<Teacher> readAll() {
-        List<Teacher> list = teacherService.findAll();
-        return list;
-    }
+  @RequestMapping("/test/teacher")
+  public List<Teacher> readAll() {
+    List<Teacher> list = teacherService.findAll();
+    return list;
+  }
 }

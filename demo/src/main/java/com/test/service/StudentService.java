@@ -13,5 +13,5 @@ import java.util.List;
  * @since 2022-10-14
  */
 public interface StudentService {
-    public List<Student> findAll();
+  public List<Student> findAll();
 }

@@ -16,6 +16,6 @@ import java.util.List;
  */
 @Mapper
 public interface TeacherMapper {
-    @Select("select * from teacher")
-    List<Teacher> findAllTeacher();
+  @Select("select * from teacher")
+  List<Teacher> findAllTeacher();
 }

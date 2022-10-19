@@ -18,13 +18,13 @@ import java.util.List;
  */
 @Service
 public class StudentServiceImpl implements StudentService {
-    @Autowired
-    private StudentMapper studentMapper;
+  @Autowired
+  private StudentMapper studentMapper;
 
-    @Override
-    public List<Student> findAll() {
-        List<Student> list = studentMapper.findAllStudent();
-        System.out.println(list);
-        return list;
-    }
+  @Override
+  public List<Student> findAll() {
+    List<Student> list = studentMapper.findAllStudent();
+    System.out.println(list);
+    return list;
+  }
 }

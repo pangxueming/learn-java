@@ -24,10 +24,10 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 @ApiModel(value = "Teacher对象", description = "")
 public class Teacher implements Serializable {
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    @TableId(value = "id", type = IdType.AUTO)
-    private Integer id;
-    private String teacherName;
-    private String type;
+  @TableId(value = "id", type = IdType.AUTO)
+  private Integer id;
+  private String teacherName;
+  private String type;
 }

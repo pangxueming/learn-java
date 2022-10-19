@@ -19,14 +19,14 @@ import java.util.List;
  */
 @Service
 public class TeacherServiceImpl implements TeacherService {
-    @Autowired
-    private TeacherMapper teacherMapper;
+  @Autowired
+  private TeacherMapper teacherMapper;
 
-    @Override
-    public List<Teacher> findAll() {
-        List<Teacher> list = teacherMapper.findAllTeacher();
-        System.out.println(list);
-        return list;
-    }
+  @Override
+  public List<Teacher> findAll() {
+    List<Teacher> list = teacherMapper.findAllTeacher();
+    System.out.println(list);
+    return list;
+  }
 
 }

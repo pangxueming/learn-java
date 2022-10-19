@@ -25,10 +25,10 @@ import lombok.experimental.Accessors;
 @ApiModel(value = "Student对象", description = "")
 public class Student implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    @TableId(value = "id", type = IdType.AUTO)
-    private Integer id;
+  @TableId(value = "id", type = IdType.AUTO)
+  private Integer id;
 
-    private String name;
+  private String name;
 }
